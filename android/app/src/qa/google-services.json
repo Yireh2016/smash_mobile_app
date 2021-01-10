@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "921185604803",
+    "firebase_url": "https://smash-money.firebaseio.com",
+    "project_id": "smash-money",
+    "storage_bucket": "smash-money.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921185604803:android:d3f569b14daa52db68fe76",
+        "android_client_info": {
+          "package_name": "com.smash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921185604803-d2o3m8j2l9278md0ohvn2m2o2pd70d5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgRSgYmaGWikIVxGkVBc_V4YPKaHAvr-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921185604803-d2o3m8j2l9278md0ohvn2m2o2pd70d5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921185604803:android:79ff788c1f47116968fe76",
+        "android_client_info": {
+          "package_name": "com.smash.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921185604803-d2o3m8j2l9278md0ohvn2m2o2pd70d5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgRSgYmaGWikIVxGkVBc_V4YPKaHAvr-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921185604803-d2o3m8j2l9278md0ohvn2m2o2pd70d5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921185604803:android:9a8ea720af984d3868fe76",
+        "android_client_info": {
+          "package_name": "com.smash.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921185604803-d2o3m8j2l9278md0ohvn2m2o2pd70d5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgRSgYmaGWikIVxGkVBc_V4YPKaHAvr-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921185604803-d2o3m8j2l9278md0ohvn2m2o2pd70d5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

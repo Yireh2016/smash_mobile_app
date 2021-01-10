@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MiniButton renders correctly 1`] = `
+<RNGestureHandlerButton
+  collapsable={false}
+  onGestureEvent={[Function]}
+  onGestureHandlerEvent={[Function]}
+  onGestureHandlerStateChange={[Function]}
+  onHandlerStateChange={[Function]}
+  rippleColor={0}
+  testID="MiniButton"
+>
+  <View
+    accessible={true}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontFamily": "OpenSans-Regular",
+            "fontSize": 14,
+          }
+        }
+      >
+        Test
+      </Text>
+      <View
+        style={
+          Object {
+            "marginLeft": 6,
+          }
+        }
+      >
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight={11.368}
+          bbWidth={12.184}
+          focusable={false}
+          height={11.368}
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "flex": 0,
+                "height": 11,
+                "width": 12,
+              },
+            ]
+          }
+          vbHeight={11.368}
+          vbWidth={12.184}
+          width={12.184}
+          xml="
+
+
+<svg
+  xmlns=\\"http://www.w3.org/2000/svg\\"
+  viewBox=\\"0 0 12.184 11.368\\"
+>
+  <path
+    d=\\"M4.685,3.647l1-1a.772.772,0,0,1,1,0l5,5a.772.772,0,0,1,0,1l-5,5a.772.772,0,0,1-1,0h-1a.76.76,0,0,1,0-1l3-3h-7a1.451,1.451,0,0,1-1-1v-1c0-.347.653,0,1,0h7l-3-3A.754.754,0,0,1,4.685,3.647Z\\"
+    transform=\\"translate(0.315 -2.464)\\"
+    fill=\\"#29b782\\"
+  />
+</svg>
+
+"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <RNSVGGroup>
+            <RNSVGPath
+              d="M4.685,3.647l1-1a.772.772,0,0,1,1,0l5,5a.772.772,0,0,1,0,1l-5,5a.772.772,0,0,1-1,0h-1a.76.76,0,0,1,0-1l3-3h-7a1.451,1.451,0,0,1-1-1v-1c0-.347.653,0,1,0h7l-3-3A.754.754,0,0,1,4.685,3.647Z"
+              fill={4280924034}
+              matrix={
+                Array [
+                  1,
+                  0,
+                  0,
+                  1,
+                  0.315,
+                  -2.464,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+</RNGestureHandlerButton>
+`;

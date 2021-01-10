@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TotalDebt renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "marginTop": 34,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#fff",
+        "fontFamily": "OpenSans-Regular",
+        "fontSize": 14,
+      }
+    }
+  >
+    Total credit card debt
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#fff",
+        "fontFamily": "OpenSans-Bold",
+        "fontSize": 28,
+      }
+    }
+  >
+    $2,350.45
+  </Text>
+</View>
+`;

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlaidBanksLinks PlaidBanksLinks default 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <RNSVGText
+    content={null}
+    dx={Array []}
+    dy={Array []}
+    font={Object {}}
+    rotate={Array []}
+    x={Array []}
+    y={Array []}
+  >
+    <RNSVGTSpan
+      content="test"
+      dx={Array []}
+      dy={Array []}
+      font={Object {}}
+      rotate={Array []}
+      x={Array []}
+      y={Array []}
+    />
+  </RNSVGText>
+</View>
+`;
+
+exports[`PlaidBanksLinks PlaidBanksLinks without token 1`] = `null`;

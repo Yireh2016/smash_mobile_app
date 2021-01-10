@@ -1,0 +1,366 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditCardDataDetail renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#142836",
+      "borderRadius": 12,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "padding": 18,
+      }
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "width": "50%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontFamily": "OpenSans-Regular",
+                "fontSize": 16,
+              }
+            }
+          >
+            Current balance
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "width": "50%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontFamily": "OpenSans-Bold",
+                "fontSize": 18,
+              }
+            }
+          >
+            $500
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 17,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "width": "50%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontFamily": "OpenSans-Regular",
+                "fontSize": 16,
+              }
+            }
+          >
+            Credit utilization
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "width": "50%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontFamily": "OpenSans-Bold",
+                "fontSize": 18,
+              }
+            }
+          >
+            10%
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 17,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "width": "50%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontFamily": "OpenSans-Regular",
+                "fontSize": 16,
+              }
+            }
+          >
+            Statement balance
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "width": "50%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontFamily": "OpenSans-Bold",
+                "fontSize": 18,
+              }
+            }
+          >
+            $2,650
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 17,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "width": "50%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontFamily": "OpenSans-Regular",
+                "fontSize": 16,
+              }
+            }
+          >
+            Purchase APR
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "width": "50%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontFamily": "OpenSans-Bold",
+                "fontSize": 18,
+              }
+            }
+          >
+            19%
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 17,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "width": "50%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontFamily": "OpenSans-Regular",
+                "fontSize": 16,
+              }
+            }
+          >
+            Minimum payment
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "width": "50%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontFamily": "OpenSans-Bold",
+                "fontSize": 18,
+              }
+            }
+          >
+            $65
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 17,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "width": "50%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontFamily": "OpenSans-Regular",
+                "fontSize": 16,
+              }
+            }
+          >
+            Payment due date
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "width": "50%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontFamily": "OpenSans-Bold",
+                "fontSize": 18,
+              }
+            }
+          >
+            12/18
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,389 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SmashAnimLoader ui test SmashAnimLoader renders correctly boolean loader false 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  supportedOrientations={
+    Array [
+      "portrait",
+    ]
+  }
+  transparent={true}
+  visible={false}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "bottom": 0,
+          "flex": 1,
+          "justifyContent": "center",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "backgroundColor": "#10202b",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 2,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1,
+            },
+            undefined,
+            Array [
+              Object {
+                "height": "100%",
+                "width": "100%",
+              },
+              Object {
+                "height": 200,
+              },
+            ],
+          ]
+        }
+      >
+        <View
+          autoPlay={false}
+          enableMergePathsAndroidForKitKatAndAbove={false}
+          forwardedRef={[Function]}
+          loop={true}
+          onAnimationFinish={[Function]}
+          onLayout={[Function]}
+          progress={0}
+          resizeMode="contain"
+          sourceJson="{\\"v\\":\\"5.7.3\\",\\"fr\\":29.9700012207031,\\"ip\\":0,\\"op\\":60.0000024438501,\\"w\\":500,\\"h\\":500,\\"nm\\":\\"Comp 1\\",\\"ddd\\":0,\\"assets\\":[],\\"layers\\":[{\\"ddd\\":0,\\"ind\\":1,\\"ty\\":4,\\"nm\\":\\"Capa de formas 1\\",\\"sr\\":1,\\"ks\\":{\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":11},\\"r\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":10},\\"p\\":{\\"a\\":0,\\"k\\":[250,250,0],\\"ix\\":2},\\"a\\":{\\"a\\":0,\\"k\\":[0,0,0],\\"ix\\":1},\\"s\\":{\\"a\\":0,\\"k\\":[100,100,100],\\"ix\\":6}},\\"ao\\":0,\\"shapes\\":[{\\"ty\\":\\"gr\\",\\"it\\":[{\\"ind\\":0,\\"ty\\":\\"sh\\",\\"ix\\":1,\\"ks\\":{\\"a\\":0,\\"k\\":{\\"i\\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\\"o\\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\\"v\\":[[46.5,-183.5],[-3,-90],[-45,-120],[-56,-64],[-179,-110],[-102,-12],[-199,28],[-88,51],[-165,160],[-34,101],[6,189],[49,110],[206,168],[92,27],[193,-124],[71,-84]],\\"c\\":true},\\"ix\\":2},\\"nm\\":\\"Trazado 1\\",\\"mn\\":\\"ADBE Vector Shape - Group\\",\\"hd\\":false},{\\"ty\\":\\"tm\\",\\"s\\":{\\"a\\":1,\\"k\\":[{\\"i\\":{\\"x\\":[0.667],\\"y\\":[1]},\\"o\\":{\\"x\\":[0.333],\\"y\\":[0]},\\"t\\":0,\\"s\\":[0]},{\\"t\\":59.0000024031193,\\"s\\":[100]}],\\"ix\\":1},\\"e\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":2},\\"o\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":3},\\"m\\":1,\\"ix\\":2,\\"nm\\":\\"Recortar trazados 1\\",\\"mn\\":\\"ADBE Vector Filter - Trim\\",\\"hd\\":false},{\\"ty\\":\\"st\\",\\"c\\":{\\"a\\":0,\\"k\\":[0.152941176471,0.717647058824,0.509803921569,1],\\"ix\\":3},\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":4},\\"w\\":{\\"a\\":1,\\"k\\":[{\\"i\\":{\\"x\\":[0.667],\\"y\\":[1]},\\"o\\":{\\"x\\":[0.333],\\"y\\":[0]},\\"t\\":0,\\"s\\":[5]},{\\"i\\":{\\"x\\":[0.667],\\"y\\":[1]},\\"o\\":{\\"x\\":[0.333],\\"y\\":[0]},\\"t\\":30,\\"s\\":[12]},{\\"t\\":59.0000024031193,\\"s\\":[1]}],\\"ix\\":5},\\"lc\\":1,\\"lj\\":1,\\"ml\\":4,\\"bm\\":0,\\"nm\\":\\"Trazo 1\\",\\"mn\\":\\"ADBE Vector Graphic - Stroke\\",\\"hd\\":false},{\\"ty\\":\\"fl\\",\\"c\\":{\\"a\\":0,\\"k\\":[0,0,0,1],\\"ix\\":4},\\"o\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":5},\\"r\\":1,\\"bm\\":0,\\"nm\\":\\"Relleno 1\\",\\"mn\\":\\"ADBE Vector Graphic - Fill\\",\\"hd\\":false},{\\"ty\\":\\"tr\\",\\"p\\":{\\"a\\":0,\\"k\\":[0,0],\\"ix\\":2},\\"a\\":{\\"a\\":0,\\"k\\":[0,0],\\"ix\\":1},\\"s\\":{\\"a\\":0,\\"k\\":[100,100],\\"ix\\":3},\\"r\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":6},\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":7},\\"sk\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":4},\\"sa\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":5},\\"nm\\":\\"Transformar\\"}],\\"nm\\":\\"Forma 1\\",\\"np\\":4,\\"cix\\":2,\\"bm\\":0,\\"ix\\":1,\\"mn\\":\\"ADBE Vector Group\\",\\"hd\\":false}],\\"ip\\":0,\\"op\\":60.0000024438501,\\"st\\":0,\\"bm\\":0}],\\"markers\\":[]}"
+          speed={1}
+          style={
+            Object {
+              "aspectRatio": 1,
+              "height": 200,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`SmashAnimLoader ui test SmashAnimLoader renders correctly boolean loader true 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  supportedOrientations={
+    Array [
+      "portrait",
+    ]
+  }
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "bottom": 0,
+          "flex": 1,
+          "justifyContent": "center",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "backgroundColor": "#10202b",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 2,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1,
+            },
+            undefined,
+            Array [
+              Object {
+                "height": "100%",
+                "width": "100%",
+              },
+              Object {
+                "height": 200,
+              },
+            ],
+          ]
+        }
+      >
+        <View
+          autoPlay={false}
+          enableMergePathsAndroidForKitKatAndAbove={false}
+          forwardedRef={[Function]}
+          loop={true}
+          onAnimationFinish={[Function]}
+          onLayout={[Function]}
+          progress={0}
+          resizeMode="contain"
+          sourceJson="{\\"v\\":\\"5.7.3\\",\\"fr\\":29.9700012207031,\\"ip\\":0,\\"op\\":60.0000024438501,\\"w\\":500,\\"h\\":500,\\"nm\\":\\"Comp 1\\",\\"ddd\\":0,\\"assets\\":[],\\"layers\\":[{\\"ddd\\":0,\\"ind\\":1,\\"ty\\":4,\\"nm\\":\\"Capa de formas 1\\",\\"sr\\":1,\\"ks\\":{\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":11},\\"r\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":10},\\"p\\":{\\"a\\":0,\\"k\\":[250,250,0],\\"ix\\":2},\\"a\\":{\\"a\\":0,\\"k\\":[0,0,0],\\"ix\\":1},\\"s\\":{\\"a\\":0,\\"k\\":[100,100,100],\\"ix\\":6}},\\"ao\\":0,\\"shapes\\":[{\\"ty\\":\\"gr\\",\\"it\\":[{\\"ind\\":0,\\"ty\\":\\"sh\\",\\"ix\\":1,\\"ks\\":{\\"a\\":0,\\"k\\":{\\"i\\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\\"o\\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\\"v\\":[[46.5,-183.5],[-3,-90],[-45,-120],[-56,-64],[-179,-110],[-102,-12],[-199,28],[-88,51],[-165,160],[-34,101],[6,189],[49,110],[206,168],[92,27],[193,-124],[71,-84]],\\"c\\":true},\\"ix\\":2},\\"nm\\":\\"Trazado 1\\",\\"mn\\":\\"ADBE Vector Shape - Group\\",\\"hd\\":false},{\\"ty\\":\\"tm\\",\\"s\\":{\\"a\\":1,\\"k\\":[{\\"i\\":{\\"x\\":[0.667],\\"y\\":[1]},\\"o\\":{\\"x\\":[0.333],\\"y\\":[0]},\\"t\\":0,\\"s\\":[0]},{\\"t\\":59.0000024031193,\\"s\\":[100]}],\\"ix\\":1},\\"e\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":2},\\"o\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":3},\\"m\\":1,\\"ix\\":2,\\"nm\\":\\"Recortar trazados 1\\",\\"mn\\":\\"ADBE Vector Filter - Trim\\",\\"hd\\":false},{\\"ty\\":\\"st\\",\\"c\\":{\\"a\\":0,\\"k\\":[0.152941176471,0.717647058824,0.509803921569,1],\\"ix\\":3},\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":4},\\"w\\":{\\"a\\":1,\\"k\\":[{\\"i\\":{\\"x\\":[0.667],\\"y\\":[1]},\\"o\\":{\\"x\\":[0.333],\\"y\\":[0]},\\"t\\":0,\\"s\\":[5]},{\\"i\\":{\\"x\\":[0.667],\\"y\\":[1]},\\"o\\":{\\"x\\":[0.333],\\"y\\":[0]},\\"t\\":30,\\"s\\":[12]},{\\"t\\":59.0000024031193,\\"s\\":[1]}],\\"ix\\":5},\\"lc\\":1,\\"lj\\":1,\\"ml\\":4,\\"bm\\":0,\\"nm\\":\\"Trazo 1\\",\\"mn\\":\\"ADBE Vector Graphic - Stroke\\",\\"hd\\":false},{\\"ty\\":\\"fl\\",\\"c\\":{\\"a\\":0,\\"k\\":[0,0,0,1],\\"ix\\":4},\\"o\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":5},\\"r\\":1,\\"bm\\":0,\\"nm\\":\\"Relleno 1\\",\\"mn\\":\\"ADBE Vector Graphic - Fill\\",\\"hd\\":false},{\\"ty\\":\\"tr\\",\\"p\\":{\\"a\\":0,\\"k\\":[0,0],\\"ix\\":2},\\"a\\":{\\"a\\":0,\\"k\\":[0,0],\\"ix\\":1},\\"s\\":{\\"a\\":0,\\"k\\":[100,100],\\"ix\\":3},\\"r\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":6},\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":7},\\"sk\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":4},\\"sa\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":5},\\"nm\\":\\"Transformar\\"}],\\"nm\\":\\"Forma 1\\",\\"np\\":4,\\"cix\\":2,\\"bm\\":0,\\"ix\\":1,\\"mn\\":\\"ADBE Vector Group\\",\\"hd\\":false}],\\"ip\\":0,\\"op\\":60.0000024438501,\\"st\\":0,\\"bm\\":0}],\\"markers\\":[]}"
+          speed={1}
+          style={
+            Object {
+              "aspectRatio": 1,
+              "height": 200,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`SmashAnimLoader ui test SmashAnimLoader renders correctly loader object disable 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  supportedOrientations={
+    Array [
+      "portrait",
+    ]
+  }
+  transparent={true}
+  visible={false}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "bottom": 0,
+          "flex": 1,
+          "justifyContent": "center",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "backgroundColor": "#10202b",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 2,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1,
+            },
+            undefined,
+            Array [
+              Object {
+                "height": "100%",
+                "width": "100%",
+              },
+              Object {
+                "height": 200,
+              },
+            ],
+          ]
+        }
+      >
+        <View
+          autoPlay={false}
+          enableMergePathsAndroidForKitKatAndAbove={false}
+          forwardedRef={[Function]}
+          loop={true}
+          onAnimationFinish={[Function]}
+          onLayout={[Function]}
+          progress={0}
+          resizeMode="contain"
+          sourceJson="{\\"v\\":\\"5.7.3\\",\\"fr\\":29.9700012207031,\\"ip\\":0,\\"op\\":60.0000024438501,\\"w\\":500,\\"h\\":500,\\"nm\\":\\"Comp 1\\",\\"ddd\\":0,\\"assets\\":[],\\"layers\\":[{\\"ddd\\":0,\\"ind\\":1,\\"ty\\":4,\\"nm\\":\\"Capa de formas 1\\",\\"sr\\":1,\\"ks\\":{\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":11},\\"r\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":10},\\"p\\":{\\"a\\":0,\\"k\\":[250,250,0],\\"ix\\":2},\\"a\\":{\\"a\\":0,\\"k\\":[0,0,0],\\"ix\\":1},\\"s\\":{\\"a\\":0,\\"k\\":[100,100,100],\\"ix\\":6}},\\"ao\\":0,\\"shapes\\":[{\\"ty\\":\\"gr\\",\\"it\\":[{\\"ind\\":0,\\"ty\\":\\"sh\\",\\"ix\\":1,\\"ks\\":{\\"a\\":0,\\"k\\":{\\"i\\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\\"o\\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\\"v\\":[[46.5,-183.5],[-3,-90],[-45,-120],[-56,-64],[-179,-110],[-102,-12],[-199,28],[-88,51],[-165,160],[-34,101],[6,189],[49,110],[206,168],[92,27],[193,-124],[71,-84]],\\"c\\":true},\\"ix\\":2},\\"nm\\":\\"Trazado 1\\",\\"mn\\":\\"ADBE Vector Shape - Group\\",\\"hd\\":false},{\\"ty\\":\\"tm\\",\\"s\\":{\\"a\\":1,\\"k\\":[{\\"i\\":{\\"x\\":[0.667],\\"y\\":[1]},\\"o\\":{\\"x\\":[0.333],\\"y\\":[0]},\\"t\\":0,\\"s\\":[0]},{\\"t\\":59.0000024031193,\\"s\\":[100]}],\\"ix\\":1},\\"e\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":2},\\"o\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":3},\\"m\\":1,\\"ix\\":2,\\"nm\\":\\"Recortar trazados 1\\",\\"mn\\":\\"ADBE Vector Filter - Trim\\",\\"hd\\":false},{\\"ty\\":\\"st\\",\\"c\\":{\\"a\\":0,\\"k\\":[0.152941176471,0.717647058824,0.509803921569,1],\\"ix\\":3},\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":4},\\"w\\":{\\"a\\":1,\\"k\\":[{\\"i\\":{\\"x\\":[0.667],\\"y\\":[1]},\\"o\\":{\\"x\\":[0.333],\\"y\\":[0]},\\"t\\":0,\\"s\\":[5]},{\\"i\\":{\\"x\\":[0.667],\\"y\\":[1]},\\"o\\":{\\"x\\":[0.333],\\"y\\":[0]},\\"t\\":30,\\"s\\":[12]},{\\"t\\":59.0000024031193,\\"s\\":[1]}],\\"ix\\":5},\\"lc\\":1,\\"lj\\":1,\\"ml\\":4,\\"bm\\":0,\\"nm\\":\\"Trazo 1\\",\\"mn\\":\\"ADBE Vector Graphic - Stroke\\",\\"hd\\":false},{\\"ty\\":\\"fl\\",\\"c\\":{\\"a\\":0,\\"k\\":[0,0,0,1],\\"ix\\":4},\\"o\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":5},\\"r\\":1,\\"bm\\":0,\\"nm\\":\\"Relleno 1\\",\\"mn\\":\\"ADBE Vector Graphic - Fill\\",\\"hd\\":false},{\\"ty\\":\\"tr\\",\\"p\\":{\\"a\\":0,\\"k\\":[0,0],\\"ix\\":2},\\"a\\":{\\"a\\":0,\\"k\\":[0,0],\\"ix\\":1},\\"s\\":{\\"a\\":0,\\"k\\":[100,100],\\"ix\\":3},\\"r\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":6},\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":7},\\"sk\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":4},\\"sa\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":5},\\"nm\\":\\"Transformar\\"}],\\"nm\\":\\"Forma 1\\",\\"np\\":4,\\"cix\\":2,\\"bm\\":0,\\"ix\\":1,\\"mn\\":\\"ADBE Vector Group\\",\\"hd\\":false}],\\"ip\\":0,\\"op\\":60.0000024438501,\\"st\\":0,\\"bm\\":0}],\\"markers\\":[]}"
+          speed={1}
+          style={
+            Object {
+              "aspectRatio": 1,
+              "height": 200,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`SmashAnimLoader ui test SmashAnimLoader renders correctly loader object enable 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  supportedOrientations={
+    Array [
+      "portrait",
+    ]
+  }
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "bottom": 0,
+          "flex": 1,
+          "justifyContent": "center",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "backgroundColor": "#10202b",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "width": 200,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontFamily": "OpenSans-Bold",
+            "fontSize": 28,
+            "textAlign": "center",
+          }
+        }
+      >
+        title
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 2,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1,
+            },
+            undefined,
+            Array [
+              Object {
+                "height": "100%",
+                "width": "100%",
+              },
+              Object {
+                "height": 200,
+              },
+            ],
+          ]
+        }
+      >
+        <View
+          autoPlay={false}
+          enableMergePathsAndroidForKitKatAndAbove={false}
+          forwardedRef={[Function]}
+          loop={true}
+          onAnimationFinish={[Function]}
+          onLayout={[Function]}
+          progress={0}
+          resizeMode="contain"
+          sourceJson="{\\"v\\":\\"5.7.3\\",\\"fr\\":29.9700012207031,\\"ip\\":0,\\"op\\":60.0000024438501,\\"w\\":500,\\"h\\":500,\\"nm\\":\\"Comp 1\\",\\"ddd\\":0,\\"assets\\":[],\\"layers\\":[{\\"ddd\\":0,\\"ind\\":1,\\"ty\\":4,\\"nm\\":\\"Capa de formas 1\\",\\"sr\\":1,\\"ks\\":{\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":11},\\"r\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":10},\\"p\\":{\\"a\\":0,\\"k\\":[250,250,0],\\"ix\\":2},\\"a\\":{\\"a\\":0,\\"k\\":[0,0,0],\\"ix\\":1},\\"s\\":{\\"a\\":0,\\"k\\":[100,100,100],\\"ix\\":6}},\\"ao\\":0,\\"shapes\\":[{\\"ty\\":\\"gr\\",\\"it\\":[{\\"ind\\":0,\\"ty\\":\\"sh\\",\\"ix\\":1,\\"ks\\":{\\"a\\":0,\\"k\\":{\\"i\\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\\"o\\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\\"v\\":[[46.5,-183.5],[-3,-90],[-45,-120],[-56,-64],[-179,-110],[-102,-12],[-199,28],[-88,51],[-165,160],[-34,101],[6,189],[49,110],[206,168],[92,27],[193,-124],[71,-84]],\\"c\\":true},\\"ix\\":2},\\"nm\\":\\"Trazado 1\\",\\"mn\\":\\"ADBE Vector Shape - Group\\",\\"hd\\":false},{\\"ty\\":\\"tm\\",\\"s\\":{\\"a\\":1,\\"k\\":[{\\"i\\":{\\"x\\":[0.667],\\"y\\":[1]},\\"o\\":{\\"x\\":[0.333],\\"y\\":[0]},\\"t\\":0,\\"s\\":[0]},{\\"t\\":59.0000024031193,\\"s\\":[100]}],\\"ix\\":1},\\"e\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":2},\\"o\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":3},\\"m\\":1,\\"ix\\":2,\\"nm\\":\\"Recortar trazados 1\\",\\"mn\\":\\"ADBE Vector Filter - Trim\\",\\"hd\\":false},{\\"ty\\":\\"st\\",\\"c\\":{\\"a\\":0,\\"k\\":[0.152941176471,0.717647058824,0.509803921569,1],\\"ix\\":3},\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":4},\\"w\\":{\\"a\\":1,\\"k\\":[{\\"i\\":{\\"x\\":[0.667],\\"y\\":[1]},\\"o\\":{\\"x\\":[0.333],\\"y\\":[0]},\\"t\\":0,\\"s\\":[5]},{\\"i\\":{\\"x\\":[0.667],\\"y\\":[1]},\\"o\\":{\\"x\\":[0.333],\\"y\\":[0]},\\"t\\":30,\\"s\\":[12]},{\\"t\\":59.0000024031193,\\"s\\":[1]}],\\"ix\\":5},\\"lc\\":1,\\"lj\\":1,\\"ml\\":4,\\"bm\\":0,\\"nm\\":\\"Trazo 1\\",\\"mn\\":\\"ADBE Vector Graphic - Stroke\\",\\"hd\\":false},{\\"ty\\":\\"fl\\",\\"c\\":{\\"a\\":0,\\"k\\":[0,0,0,1],\\"ix\\":4},\\"o\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":5},\\"r\\":1,\\"bm\\":0,\\"nm\\":\\"Relleno 1\\",\\"mn\\":\\"ADBE Vector Graphic - Fill\\",\\"hd\\":false},{\\"ty\\":\\"tr\\",\\"p\\":{\\"a\\":0,\\"k\\":[0,0],\\"ix\\":2},\\"a\\":{\\"a\\":0,\\"k\\":[0,0],\\"ix\\":1},\\"s\\":{\\"a\\":0,\\"k\\":[100,100],\\"ix\\":3},\\"r\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":6},\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":7},\\"sk\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":4},\\"sa\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":5},\\"nm\\":\\"Transformar\\"}],\\"nm\\":\\"Forma 1\\",\\"np\\":4,\\"cix\\":2,\\"bm\\":0,\\"ix\\":1,\\"mn\\":\\"ADBE Vector Group\\",\\"hd\\":false}],\\"ip\\":0,\\"op\\":60.0000024438501,\\"st\\":0,\\"bm\\":0}],\\"markers\\":[]}"
+          speed={1}
+          style={
+            Object {
+              "aspectRatio": 1,
+              "height": 200,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-start",
+          "width": 216,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontFamily": "OpenSans-Bold",
+            "fontSize": 18,
+            "textAlign": "center",
+          }
+        }
+      >
+        message
+      </Text>
+    </View>
+  </View>
+</Modal>
+`;

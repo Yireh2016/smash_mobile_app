@@ -1,0 +1,432 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardCardsTable renders correctly 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "paddingRight": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "width": "60%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontFamily": "OpenSans-Regular",
+              "fontSize": 14,
+            }
+          }
+        >
+          Card
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "width": "20%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontFamily": "OpenSans-Regular",
+              "fontSize": 14,
+            }
+          }
+        >
+          Balance
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "width": "20%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontFamily": "OpenSans-Regular",
+              "fontSize": 14,
+            }
+          }
+        >
+          Utilization
+        </Text>
+      </View>
+    </View>
+  </View>,
+  <View
+    style={
+      Object {
+        "marginTop": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#142836",
+          "borderRadius": 12,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 13,
+            "paddingVertical": 18,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "width": "60%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontFamily": "OpenSans-Bold",
+                    "fontSize": 16,
+                  }
+                }
+              >
+                Citi
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontFamily": "OpenSans-Regular",
+                    "fontSize": 16,
+                  }
+                }
+              >
+                 (2267)
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "width": "20%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "OpenSans-Bold",
+                  "fontSize": 16,
+                }
+              }
+            >
+              $500
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "width": "20%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "OpenSans-Bold",
+                  "fontSize": 16,
+                }
+              }
+            >
+              10%
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>,
+  <View
+    style={
+      Object {
+        "marginTop": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#142836",
+          "borderRadius": 12,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 13,
+            "paddingVertical": 18,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "width": "60%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontFamily": "OpenSans-Bold",
+                    "fontSize": 16,
+                  }
+                }
+              >
+                Citi
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontFamily": "OpenSans-Regular",
+                    "fontSize": 16,
+                  }
+                }
+              >
+                 (9376)
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "width": "20%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "OpenSans-Bold",
+                  "fontSize": 16,
+                }
+              }
+            >
+              $2,000
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "width": "20%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "OpenSans-Bold",
+                  "fontSize": 16,
+                }
+              }
+            >
+              25%
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>,
+  <View
+    style={
+      Object {
+        "marginTop": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#142836",
+          "borderRadius": 12,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 13,
+            "paddingVertical": 18,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "width": "60%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontFamily": "OpenSans-Bold",
+                    "fontSize": 16,
+                  }
+                }
+              >
+                Citi
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontFamily": "OpenSans-Regular",
+                    "fontSize": 16,
+                  }
+                }
+              >
+                 (9085)
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "width": "20%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "OpenSans-Bold",
+                  "fontSize": 16,
+                }
+              }
+            >
+              $3,000
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "width": "20%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "OpenSans-Bold",
+                  "fontSize": 16,
+                }
+              }
+            >
+              10%
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>,
+]
+`;

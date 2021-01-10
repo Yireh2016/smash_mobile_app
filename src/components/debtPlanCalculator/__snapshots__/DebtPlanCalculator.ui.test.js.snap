@@ -1,0 +1,491 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DebtPlanCalculator w estimated Savings renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#142836",
+      "borderRadius": 10,
+      "marginTop": 10,
+      "paddingBottom": 20,
+      "paddingLeft": 14,
+      "paddingRight": 14,
+      "paddingTop": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontFamily": "OpenSans-Regular",
+            "fontSize": 16,
+          }
+        }
+      >
+        Monthly payment
+      </Text>
+    </View>
+    <View
+      testID="monthlyPaymentContainer"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#29b782",
+            "fontFamily": "OpenSans-Bold",
+            "fontSize": 24,
+          }
+        }
+      >
+        $937
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <RNCSlider
+        disabled={false}
+        enabled={true}
+        inverted={false}
+        maximumTrackTintColor="#29b782"
+        maximumValue={10}
+        minimumTrackTintColor="#29b782"
+        minimumValue={0}
+        onChange={null}
+        onRNCSliderSlidingComplete={[Function]}
+        onRNCSliderSlidingStart={null}
+        onRNCSliderValueChange={null}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        step={0}
+        style={
+          Array [
+            Object {
+              "height": 40,
+            },
+            Object {
+              "height": 40,
+              "width": "100%",
+            },
+          ]
+        }
+        testID="Slider"
+        thumbImage={null}
+        value={8}
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 18,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "marginTop": 14,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "width": "50%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "OpenSans-Regular",
+                  "fontSize": 16,
+                }
+              }
+            >
+              Est. pay off time
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "width": "50%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "OpenSans-Bold",
+                  "fontSize": 18,
+                }
+              }
+            >
+              27 weeks
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginTop": 14,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "width": "50%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "OpenSans-Regular",
+                  "fontSize": 16,
+                }
+              }
+            >
+              Est. savings
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "width": "50%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "OpenSans-Bold",
+                  "fontSize": 18,
+                }
+              }
+            >
+              $300 /yr
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginTop": 14,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "width": "50%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "OpenSans-Regular",
+                  "fontSize": 16,
+                }
+              }
+            >
+              Est. pay off date
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "width": "50%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "OpenSans-Bold",
+                  "fontSize": 18,
+                }
+              }
+            >
+              Dec 12, 2020
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`DebtPlanCalculator with no estimated Savings renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#142836",
+      "borderRadius": 10,
+      "marginTop": 10,
+      "paddingBottom": 20,
+      "paddingLeft": 14,
+      "paddingRight": 14,
+      "paddingTop": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontFamily": "OpenSans-Regular",
+            "fontSize": 16,
+          }
+        }
+      >
+        Monthly payment
+      </Text>
+    </View>
+    <View
+      testID="monthlyPaymentContainer"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#29b782",
+            "fontFamily": "OpenSans-Bold",
+            "fontSize": 24,
+          }
+        }
+      >
+        $937
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <RNCSlider
+        disabled={false}
+        enabled={true}
+        inverted={false}
+        maximumTrackTintColor="#29b782"
+        maximumValue={10}
+        minimumTrackTintColor="#29b782"
+        minimumValue={0}
+        onChange={null}
+        onRNCSliderSlidingComplete={[Function]}
+        onRNCSliderSlidingStart={null}
+        onRNCSliderValueChange={null}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        step={0}
+        style={
+          Array [
+            Object {
+              "height": 40,
+            },
+            Object {
+              "height": 40,
+              "width": "100%",
+            },
+          ]
+        }
+        testID="Slider"
+        thumbImage={null}
+        value={8}
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 18,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "marginTop": 14,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "width": "50%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "OpenSans-Regular",
+                  "fontSize": 16,
+                }
+              }
+            >
+              Est. pay off time
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "width": "50%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "OpenSans-Bold",
+                  "fontSize": 18,
+                }
+              }
+            >
+              27 weeks
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginTop": 14,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "width": "50%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "OpenSans-Regular",
+                  "fontSize": 16,
+                }
+              }
+            >
+              Est. pay off date
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "width": "50%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "OpenSans-Bold",
+                  "fontSize": 18,
+                }
+              }
+            >
+              Dec 12, 2020
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Texts renders correctly Text H1 renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#fff",
+      "fontFamily": "OpenSans-Bold",
+      "fontSize": 24,
+    }
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Texts renders correctly Text H2 renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#fff",
+      "fontFamily": "OpenSans-Bold",
+      "fontSize": 20,
+    }
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Texts renders correctly Text H3 renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#fff",
+      "fontFamily": "OpenSans-Bold",
+      "fontSize": 18,
+    }
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Texts renders correctly Text MainParagraph renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#fff",
+      "fontFamily": "OpenSans-Regular",
+      "fontSize": 18,
+    }
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Texts renders correctly Text MainTitle renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#fff",
+      "fontFamily": "OpenSans-Bold",
+      "fontSize": 28,
+    }
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Texts renders correctly Text P1 renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#fff",
+      "fontFamily": "OpenSans-Regular",
+      "fontSize": 16,
+    }
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Texts renders correctly Text P2 renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#fff",
+      "fontFamily": "OpenSans-Regular",
+      "fontSize": 14,
+    }
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Texts renders correctly Text P3 renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#fff",
+      "fontFamily": "OpenSans-Regular",
+      "fontSize": 12,
+    }
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`Texts renders correctly Text SmashLink renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#29b782",
+      "fontFamily": "OpenSans-Bold",
+      "fontSize": 16,
+    }
+  }
+>
+  Test
+</Text>
+`;

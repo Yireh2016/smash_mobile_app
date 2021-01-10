@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardListItem renders correctly CardListItem default version 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#142836",
+      "borderRadius": 12,
+      "width": "100%",
+    }
+  }
+>
+  <View />
+</View>
+`;
+
+exports[`CardListItem renders correctly CardListItem light version 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#142836",
+      "borderRadius": 12,
+      "width": "100%",
+    }
+  }
+>
+  <View />
+</View>
+`;

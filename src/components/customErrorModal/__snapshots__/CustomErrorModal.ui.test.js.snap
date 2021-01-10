@@ -1,0 +1,340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomErrorModal renders correctly 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  onRequestClose={[Function]}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={true}
+>
+  <View
+    accessible={true}
+    focusable={true}
+    forwardedRef={[Function]}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "black",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    forwardedRef={[Function]}
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    pointerEvents="box-none"
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 37.5,
+        "transform": Array [
+          Object {
+            "translateY": 1334,
+          },
+        ],
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#10202b",
+          "borderRadius": 10,
+          "maxHeight": 1000.5,
+          "padding": 25,
+        }
+      }
+    >
+      <RCTScrollView>
+        <View>
+          <View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "marginBottom": 7,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "marginBottom": 16,
+                  }
+                }
+              >
+                <RNSVGSvgView
+                  align="xMidYMid"
+                  bbHeight={88.287}
+                  bbWidth={71.733}
+                  focusable={false}
+                  height={88.287}
+                  meetOrSlice={0}
+                  minX={0}
+                  minY={0}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                      },
+                      Object {
+                        "flex": 0,
+                        "height": 88,
+                        "width": 71,
+                      },
+                    ]
+                  }
+                  vbHeight={88.287}
+                  vbWidth={71.733}
+                  width={71.733}
+                  xml="
+
+
+
+<svg xmlns=\\"http://www.w3.org/2000/svg\\" 
+width=\\"71.733\\"
+ height=\\"88.287\\"
+ viewBox=\\"0 0 71.733 88.287\\">
+  <g id=\\"trash\\" transform=\\"translate(-48)\\">
+    <path  d=\\"M112.836,11.036H97.661V8.277A8.277,8.277,0,0,0,89.384,0H78.349a8.277,8.277,0,0,0-8.277,8.277v2.759H54.9a6.9,6.9,0,0,0-6.9,6.9v5.518a2.759,2.759,0,0,0,2.759,2.759h66.215a2.759,2.759,0,0,0,2.759-2.759V17.933A6.9,6.9,0,0,0,112.836,11.036ZM75.59,8.277a2.763,2.763,0,0,1,2.759-2.759H89.384a2.763,2.763,0,0,1,2.759,2.759v2.759H75.59Z\\" 
+    fill=\\"#43d59e\\"/>
+    <path  d=\\"M74.226,184a.862.862,0,0,0-.861.9l2.276,47.772a8.266,8.266,0,0,0,8.267,7.884h41.9a8.266,8.266,0,0,0,8.267-7.884l2.276-47.772a.862.862,0,0,0-.861-.9Zm41.666,6.9a2.759,2.759,0,0,1,5.518,0v35.866a2.759,2.759,0,0,1-5.518,0Zm-13.795,0a2.759,2.759,0,0,1,5.518,0v35.866a2.759,2.759,0,0,1-5.518,0Zm-13.795,0a2.759,2.759,0,0,1,5.518,0v35.866a2.759,2.759,0,0,1-5.518,0Z\\" transform=\\"translate(-20.991 -152.272)\\" 
+    fill=\\"#43d59e\\"/>
+  </g>
+</svg>
+
+"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <RNSVGGroup>
+                    <RNSVGGroup
+                      matrix={
+                        Array [
+                          1,
+                          0,
+                          0,
+                          1,
+                          -48,
+                          0,
+                        ]
+                      }
+                      name="trash"
+                    >
+                      <RNSVGPath
+                        d="M112.836,11.036H97.661V8.277A8.277,8.277,0,0,0,89.384,0H78.349a8.277,8.277,0,0,0-8.277,8.277v2.759H54.9a6.9,6.9,0,0,0-6.9,6.9v5.518a2.759,2.759,0,0,0,2.759,2.759h66.215a2.759,2.759,0,0,0,2.759-2.759V17.933A6.9,6.9,0,0,0,112.836,11.036ZM75.59,8.277a2.763,2.763,0,0,1,2.759-2.759H89.384a2.763,2.763,0,0,1,2.759,2.759v2.759H75.59Z"
+                        fill={4282635678}
+                        propList={
+                          Array [
+                            "fill",
+                          ]
+                        }
+                      />
+                      <RNSVGPath
+                        d="M74.226,184a.862.862,0,0,0-.861.9l2.276,47.772a8.266,8.266,0,0,0,8.267,7.884h41.9a8.266,8.266,0,0,0,8.267-7.884l2.276-47.772a.862.862,0,0,0-.861-.9Zm41.666,6.9a2.759,2.759,0,0,1,5.518,0v35.866a2.759,2.759,0,0,1-5.518,0Zm-13.795,0a2.759,2.759,0,0,1,5.518,0v35.866a2.759,2.759,0,0,1-5.518,0Zm-13.795,0a2.759,2.759,0,0,1,5.518,0v35.866a2.759,2.759,0,0,1-5.518,0Z"
+                        fill={4282635678}
+                        matrix={
+                          Array [
+                            1,
+                            0,
+                            0,
+                            1,
+                            -20.991,
+                            -152.272,
+                          ]
+                        }
+                        propList={
+                          Array [
+                            "fill",
+                          ]
+                        }
+                      />
+                    </RNSVGGroup>
+                  </RNSVGGroup>
+                </RNSVGSvgView>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontFamily": "OpenSans-Bold",
+                    "fontSize": 18,
+                  }
+                }
+              >
+                Error
+                 
+              </Text>
+            </View>
+          </View>
+          <View>
+            <View
+              style={
+                Object {
+                  "marginBottom": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontFamily": "OpenSans-Regular",
+                    "fontSize": 16,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                test error modal
+              </Text>
+            </View>
+          </View>
+          <View>
+            <View>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#29b782",
+                    "borderColor": "transparent",
+                    "borderRadius": 12,
+                    "borderWidth": 1,
+                    "paddingBottom": 10,
+                    "paddingTop": 10,
+                    "width": "100%",
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#fff",
+                        "fontFamily": "OpenSans-Bold",
+                        "fontSize": 20,
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    Ok
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "marginTop": 25,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#10202b",
+                      "borderColor": "#29b782",
+                      "borderRadius": 12,
+                      "borderWidth": 1,
+                      "paddingBottom": 10,
+                      "paddingTop": 10,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#fff",
+                          "fontFamily": "OpenSans-Bold",
+                          "fontSize": 20,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      Cancel
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+</Modal>
+`;

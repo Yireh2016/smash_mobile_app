@@ -1,0 +1,154 @@
+fastlane_version '2.168.0'
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
+
+platform :ios do
+   # iOS Lanes
+
+  provisioningProfiles = nil
+  
+  desc 'Set app identifier'
+  private_lane :set_env_values do |options|
+    if options[:flavor] == 'Prod'
+      ENV['SCHEME'] = 'Smash'
+      ENV['OUTPUT_NAME'] = 'Smash'
+      ENV['FIREBASE_APP_ID'] = ENV['APP_IDENTIFIER_IOS_PROD']
+      ENV['APP_IDENTIFIER'] = 'money.smash.smash'
+      ENV['CONFIGURATION'] = 'Release'
+      provisioningProfiles = { "money.smash.smash" => "match Development money.smash.smash" }
+      next
+    end
+    if options[:flavor] == 'Qa'
+      ENV['SCHEME'] = 'Qa'
+      ENV['OUTPUT_NAME'] = 'Smash-Qa'
+      ENV['FIREBASE_APP_ID'] = ENV['APP_IDENTIFIER_IOS_QA']
+      ENV['APP_IDENTIFIER'] = 'money.smash.smash.qa'
+      ENV['CONFIGURATION'] = 'Qa.Release'
+      provisioningProfiles = { "money.smash.smash.qa" => "match Development money.smash.smash.qa" }
+      next
+    end
+    ENV['SCHEME'] = 'Dev'
+    ENV['OUTPUT_NAME'] = 'Smash-Dev'
+    ENV['FIREBASE_APP_ID'] = ENV['APP_IDENTIFIER_IOS_DEV']
+    ENV['APP_IDENTIFIER'] = 'money.smash.smash.dev'
+    ENV['CONFIGURATION'] = 'Dev.Release'
+    provisioningProfiles = { "money.smash.smash.dev" => "match Development money.smash.smash.dev" }
+  end
+
+  desc 'Run match'
+  private_lane :match_ios do |options|
+    #register_devices(devices_file: "./ios_devices.txt")
+    setup_circle_ci
+    match(
+      type: "adhoc",
+      app_identifier: ENV['APP_IDENTIFIER'],
+      force_for_new_devices: true,
+      readonly: is_ci,
+    )
+  end
+
+  desc 'Build ios version'
+  private_lane :build do |options|
+    # scheme: Dev, Qa, Smash
+    gym(
+      workspace: 'ios/Smash.xcworkspace',
+      configuration: ENV['CONFIGURATION'],
+      clean: true,
+      export_method: "ad-hoc",
+      scheme: ENV['SCHEME'],
+      export_options: {
+        'signingStyle' => 'manual',
+        provisioningProfiles: provisioningProfiles,
+        uploadBitcode: true,
+        uploadSymbols: true,
+        compileBitcode: true,
+      }
+    )
+  end
+
+  desc 'Upload to firebase'
+  private_lane :upload_firebase do |options|
+    firebase_app_distribution(
+      app: ENV['FIREBASE_APP_ID'],
+      testers: "ios testers",
+      release_notes: "Lots of amazing new features to test out!"
+    )
+  end
+
+  # Should be used with command like follows:
+  # bundle exec fastlane ios deploy flavor:Dev
+  # bundle exec fastlane ios deploy flavor:Qa
+  # bundle exec fastlane ios deploy flavor:Prod
+  # In order for this to work, FIREBASE_TOKEN env value must be set  lane :deploy do |options|
+  lane :deploy do |options|
+    set_env_values(options)
+    sh("npm", "run", "bundle-ios")
+    match_ios(options)
+    build(options)
+    upload_firebase(options)
+  end
+end
+
+platform :android do
+  # Android Lanes
+  desc 'Set firebase app identifier'
+  private_lane :set_firebase_app_id do |options|
+    if options[:flavor] == 'Prod'
+      ENV['FIREBASE_APP_ID'] = ENV['APP_IDENTIFIER_ANDROID_PROD']
+      next
+    end
+    if options[:flavor] == 'Qa'
+      ENV['FIREBASE_APP_ID'] = ENV['APP_IDENTIFIER_ANDROID_QA']
+      next
+    end
+    ENV['FIREBASE_APP_ID'] = ENV['APP_IDENTIFIER_ANDROID_DEV']
+  end
+
+  desc 'Run npm bundle android'
+  private_lane :bundle do |options|
+    sh("npm", "run", "bundle-android")
+  end
+
+  desc 'Build the Android application in selected environment.'
+  private_lane :build do |options|
+    gradle(task: 'clean', project_dir: 'android/')
+    gradle(
+      task: 'assemble',
+      build_type: (options[:build_type] ? options[:build_type] : "Debug"),
+      flavor: (options[:flavor] ? options[:flavor] : "Dev"),
+      project_dir: 'android/'
+    )
+  end
+
+  desc 'Upload to firebase'
+  private_lane :upload_firebase do |options|
+    firebase_app_distribution(
+      app: ENV['FIREBASE_APP_ID'],
+      groups: "android-testers",
+      release_notes: "New android version to test"
+    )
+  end
+
+  # Should be used with command like follows:
+  # bundle exec fastlane android deploy build_type:Release flavor:Dev
+  # bundle exec fastlane android deploy build_type:Release flavor:Qa
+  # bundle exec fastlane android deploy build_type:Release flavor:Prod
+  # In order for this to work, FIREBASE_TOKEN env value must be set
+  desc 'Deploy the android application to firebase'
+  lane :deploy do |options|
+    bundle(options)
+    build(options)
+    set_firebase_app_id(options)
+    upload_firebase(options)
+  end
+
+  desc 'Run tests'
+  lane :tests do |options|
+    sh("npm", "run", "test")
+  end
+
+  #TODO: actualizar build version y hacer skip de ese commit en CI
+  #TODO: release notes desde commits que contengan palabra #upload
+  #TODO: subir version al store de google con merge a master
+  #TODO: deploys manuales al store
+end

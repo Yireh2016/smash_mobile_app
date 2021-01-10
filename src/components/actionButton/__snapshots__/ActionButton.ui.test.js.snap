@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionButton renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#2C3D49",
+      "borderRadius": 12,
+      "width": "100%",
+    }
+  }
+>
+  <RNGestureHandlerButton
+    collapsable={false}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+    testID="ActionButton"
+  >
+    <View
+      accessible={true}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingBottom": 20,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexGrow": 90,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontFamily": "OpenSans-Bold",
+                "fontSize": 20,
+                "textAlign": "left",
+              }
+            }
+          >
+            Test
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "flexGrow": 10,
+            }
+          }
+        >
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight={25}
+            bbWidth={25}
+            focusable={false}
+            height={25}
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 25,
+                  "width": 25,
+                },
+              ]
+            }
+            vbHeight={25}
+            vbWidth={25}
+            width={25}
+            xml="
+    <svg xmlns=\\"http://www.w3.org/2000/svg\\" width=25 height=25 viewBox=\\"0 0 25 25\\">
+  <path id=\\"plus\\" d=\\"M12.5,0A12.5,12.5,0,1,0,25,12.5,12.514,12.514,0,0,0,12.5,0Zm5.469,13.542H13.542v4.427a1.042,1.042,0,0,1-2.083,0V13.542H7.031a1.042,1.042,0,0,1,0-2.083h4.427V7.031a1.042,1.042,0,0,1,2.083,0v4.427h4.427a1.042,1.042,0,0,1,0,2.083Zm0,0\\" fill=#29b782/>
+</svg>
+
+    "
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <RNSVGGroup>
+              <RNSVGPath
+                d="M12.5,0A12.5,12.5,0,1,0,25,12.5,12.514,12.514,0,0,0,12.5,0Zm5.469,13.542H13.542v4.427a1.042,1.042,0,0,1-2.083,0V13.542H7.031a1.042,1.042,0,0,1,0-2.083h4.427V7.031a1.042,1.042,0,0,1,2.083,0v4.427h4.427a1.042,1.042,0,0,1,0,2.083Zm0,0"
+                fill={4280924034}
+                name="plus"
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+      </View>
+    </View>
+  </RNGestureHandlerButton>
+</View>
+`;

@@ -1,0 +1,305 @@
+aliases:
+  - &restore_pods_cache
+    name: Restore pods cache
+    key: 1-pods-{{ checksum "ios/Podfile.lock" }}
+  - &save_pods_cache
+    name: Save pods cache
+    key: 1-pods-{{ checksum "ios/Podfile.lock" }}
+    paths: ./ios/Pods
+  - &pod_install
+    name: Install Pods
+    command: cd ios/ && pod install && cd ..
+  - &restore_npm_cache
+    key: v1-npm-{{ checksum "package-lock.json" }}
+  - &save_npm_cache
+    key: v1-npm-{{ checksum "package-lock.json" }}
+    paths:
+      - ./node_modules
+  - &run_npm_install
+    command: npm install
+    name: Install dependencies
+  - &run_linter
+    command: npm run lint
+    name: Run linter
+  - &run_coverage
+    command: npm run coverage
+    name: Run test coverage
+  - &run_tests
+    command: npm run test
+    name: Run tests
+  - &run_bundle_android
+    command: npm run bundle-android
+    name: Run bundle-android command
+  - &run_bundle_ios
+    command: npm run bundle-ios
+    name: Run bundle-ios command
+  - &run_bundle_install
+    command: bundle install
+    name: Install bundler
+  - &run_fastlane_update_plugins
+    command: bundle exec fastlane update_plugins
+    name: Update fastlane
+  - &decode_debug_android_key
+    name: Decode Android key store
+    command: echo $DEBUG_KEYSTORE | base64 -di | tee debug.keystore android/app/debug.keystore >/dev/null
+  - &decode_smash_android_key
+    name: Decode Android key store
+    command: echo $SMASH_KEYSTORE | base64 -di | tee smash.keystore android/app/smash.keystore >/dev/null
+  - &decode_keystore_properties
+    name: Decode Android key store
+    command: echo $KEYSTORE_PROPERTIES | base64 -di | tee keystore.properties android/app/keystore.properties >/dev/null
+  - &gradle_permission
+    name: chmod gradle permissions
+    command: chmod 755 android/gradlew
+  - &add_known_host_bitbucket
+    name: Add bitbucket to known host
+    command: echo $SSH_KNOWN_HOST >> ~/.ssh/known_hosts
+
+jobs:
+  checkout_code:
+    executor: rn/linux_js
+    steps:
+      - checkout
+      - persist_to_workspace:
+          paths: .
+          root: .
+  run_tests:
+    executor: rn/linux_js
+    steps:
+      - attach_workspace:
+          at: .
+      - restore_cache: *restore_npm_cache
+      - run: *run_npm_install
+      - save_cache: *save_npm_cache
+      - run: *run_tests
+  run_linter:
+    executor: rn/linux_js
+    steps:
+      - attach_workspace:
+          at: .
+      - restore_cache: *restore_npm_cache
+      - run: *run_npm_install
+      - save_cache: *save_npm_cache
+      - run: *run_linter
+  run_coverage:
+    executor: rn/linux_js
+    steps:
+      - attach_workspace:
+          at: .
+      - restore_cache: *restore_npm_cache
+      - run: *run_npm_install
+      - save_cache: *save_npm_cache
+      - run: *run_coverage
+  run_bundle_android:
+    executor: rn/linux_js
+    steps:
+      - attach_workspace:
+          at: .
+      - restore_cache: *restore_npm_cache
+      - run: *run_npm_install
+      - save_cache: *save_npm_cache
+      - run: *run_bundle_android
+  run_bundle_ios:
+    executor: rn/linux_js
+    steps:
+      - attach_workspace:
+          at: .
+      - restore_cache: *restore_npm_cache
+      - run: *run_npm_install
+      - save_cache: *save_npm_cache
+      - run: *run_bundle_ios
+  deploy_ios_dev:
+    executor:
+      name: rn/macos
+      xcode_version: 12.1.0
+    steps:
+      - attach_workspace:
+          at: .
+      - run: *run_npm_install
+      - run: *pod_install
+      - run: *run_bundle_install
+      - run: *run_fastlane_update_plugins
+      - run: *add_known_host_bitbucket
+      - run:
+          command: bundle exec fastlane ios deploy flavor:Dev
+          name: Upload ios dev version to firebase
+  deploy_android_dev:
+    resource_class: large
+    executor:
+      name: rn/linux_android
+      java_options: '-Xmx4096m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8'
+    steps:
+      - attach_workspace:
+          at: .
+      - restore_cache: *restore_npm_cache
+      - run: *run_npm_install
+      - save_cache: *save_npm_cache
+      - run: *run_bundle_install
+      - run: *run_fastlane_update_plugins
+      - run: *gradle_permission
+      - run: *decode_smash_android_key
+      - run: *decode_keystore_properties
+      - run:
+          command: bundle exec fastlane android deploy build_type:Release flavor:Dev
+          name: Upload android dev version to firebase
+  deploy_ios_qa:
+    executor:
+      name: rn/macos
+      xcode_version: 12.1.0
+    steps:
+      - attach_workspace:
+          at: .
+      - run: *run_npm_install
+      - run: *pod_install
+      - run: *run_bundle_install
+      - run: *run_fastlane_update_plugins
+      - run: *add_known_host_bitbucket
+      - run:
+          command: bundle exec fastlane ios deploy flavor:Qa
+          name: Upload ios qa version to firebase
+  deploy_android_qa:
+    resource_class: large
+    executor:
+      name: rn/linux_android
+      java_options: '-Xmx4096m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8'
+    steps:
+      - attach_workspace:
+          at: .
+      - restore_cache: *restore_npm_cache
+      - run: *run_npm_install
+      - save_cache: *save_npm_cache
+      - run: *run_bundle_install
+      - run: *run_fastlane_update_plugins
+      - run: *gradle_permission
+      - run: *decode_smash_android_key
+      - run: *decode_keystore_properties
+      - run:
+          command: bundle exec fastlane android deploy build_type:Release flavor:Qa
+          name: Upload android qa version to firebase
+  deploy_ios_prod:
+    executor:
+      name: rn/macos
+      xcode_version: 12.1.0
+    steps:
+      - attach_workspace:
+          at: .
+      - run: *run_npm_install
+      - run: *pod_install
+      - run: *run_bundle_install
+      - run: *run_fastlane_update_plugins
+      - run: *add_known_host_bitbucket
+      - run:
+          command: bundle exec fastlane ios deploy flavor:Prod
+          name: Upload ios qa version to firebase
+  deploy_android_prod:
+    resource_class: large
+    executor:
+      name: rn/linux_android
+      java_options: '-Xmx4096m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8'
+    steps:
+      - attach_workspace:
+          at: .
+      - restore_cache: *restore_npm_cache
+      - run: *run_npm_install
+      - save_cache: *save_npm_cache
+      - run: *run_bundle_install
+      - run: *run_fastlane_update_plugins
+      - run: *gradle_permission
+      - run: *decode_smash_android_key
+      - run: *decode_keystore_properties
+      - run:
+          command: bundle exec fastlane android deploy build_type:Release flavor:Prod
+          name: Upload android qa version to firebase
+
+orbs:
+  rn: react-native-community/react-native@4.4.2
+version: 2.1
+workflows:
+  build-and-check:
+    jobs:
+      - checkout_code
+      - run_linter:
+          requires:
+            - checkout_code
+      - run_coverage:
+          requires:
+            - checkout_code
+      - run_tests:
+          requires:
+            - checkout_code
+      - run_bundle_android:
+          requires:
+            - run_coverage
+            - run_tests
+            - run_linter
+      - run_bundle_ios:
+          requires:
+            - run_coverage
+            - run_tests
+            - run_linter
+      - deploy_ios_dev:
+          filters:
+            branches:
+              only:
+                - develop
+          requires:
+            - run_linter
+            - run_coverage
+            - run_tests
+            - run_bundle_android
+            - run_bundle_ios
+      - deploy_android_dev:
+          filters:
+            branches:
+              only:
+                - develop
+          requires:
+            - run_linter
+            - run_coverage
+            - run_tests
+            - run_bundle_android
+            - run_bundle_ios
+      - deploy_ios_qa:
+          filters:
+            branches:
+              only:
+                - qa
+          requires:
+            - run_linter
+            - run_coverage
+            - run_tests
+            - run_bundle_android
+            - run_bundle_ios
+      - deploy_android_qa:
+          filters:
+            branches:
+              only:
+                - qa
+          requires:
+            - run_linter
+            - run_coverage
+            - run_tests
+            - run_bundle_android
+            - run_bundle_ios
+      - deploy_ios_prod:
+          filters:
+            branches:
+              only:
+                - master
+          requires:
+            - run_linter
+            - run_coverage
+            - run_tests
+            - run_bundle_android
+            - run_bundle_ios
+      - deploy_android_prod:
+          filters:
+            branches:
+              only:
+                - master
+          requires:
+            - run_linter
+            - run_coverage
+            - run_tests
+            - run_bundle_android
+            - run_bundle_ios

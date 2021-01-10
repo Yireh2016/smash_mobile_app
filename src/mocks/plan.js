@@ -1,0 +1,95 @@
+export default {
+  savedPlan: {
+    _id: '5fd40a2e3fd9480008192e33',
+    monthly_payment_amount: 677.4953874381729,
+    estimated_payoff_time: 225.8317958127243,
+    estimated_savings: 0,
+    estimated_payoff_date: 'Jul 25, 2021',
+    credit_cards: [
+      {
+        account_id: '5fd40a1f43d05900087d47c0',
+        bank_name: 'Citi',
+        mask: '6153',
+        minimum_payment_amount: 25,
+        next_payment_due_date: '2021-01-12',
+        suggested_payment_amount: 25,
+        current_balance: 2000,
+        credit_utilization_percentage: 15.7,
+        last_statement_balance: 1800,
+        aprs: [
+          {
+            _id: '5fd40a2e3fd9480008192e35',
+            apr_percentage: 0,
+            balance_subject_to_apr: 2000,
+            apr_type: 'adjustment',
+          },
+        ],
+        purchase_apr_percentage: 0,
+      },
+      {
+        account_id: '5fd40a1f43d05900087d47c1',
+        bank_name: 'Citi',
+        mask: '8788',
+        minimum_payment_amount: 65,
+        next_payment_due_date: '2021-01-12',
+        suggested_payment_amount: 652.4953874381729,
+        current_balance: 3100,
+        credit_utilization_percentage: 18.9,
+        last_statement_balance: 2650,
+        aprs: [
+          {
+            _id: '5fd40a2e3fd9480008192e37',
+            apr_percentage: 0,
+            balance_subject_to_apr: 3100,
+            apr_type: 'adjustment',
+          },
+        ],
+        purchase_apr_percentage: 0,
+      },
+    ],
+  },
+  unsavedPlan: {
+    monthly_payment_amount: 677.4953874381729,
+    estimated_payoff_time: 225.8317958127243,
+    estimated_savings: 0,
+    estimated_payoff_date: 'Jul 25, 2021',
+    credit_cards: [
+      {
+        account_id: '5fd40a1f43d05900087d47c0',
+        bank_name: 'Citi',
+        mask: '6153',
+        current_balance: 2000,
+        credit_utilization_percentage: 15.7,
+        purchase_apr_percentage: 0,
+        aprs: [
+          {
+            apr_percentage: 0,
+            balance_subject_to_apr: 2000,
+            apr_type: 'adjustment',
+          },
+        ],
+        last_statement_balance: 1800,
+        minimum_payment_amount: 25,
+        next_payment_due_date: '2021-01-12',
+      },
+      {
+        account_id: '5fd40a1f43d05900087d47c1',
+        bank_name: 'Citi',
+        mask: '8788',
+        current_balance: 3100,
+        credit_utilization_percentage: 18.9,
+        purchase_apr_percentage: 0,
+        aprs: [
+          {
+            apr_percentage: 0,
+            balance_subject_to_apr: 3100,
+            apr_type: 'adjustment',
+          },
+        ],
+        last_statement_balance: 2650,
+        minimum_payment_amount: 65,
+        next_payment_due_date: '2021-01-12',
+      },
+    ],
+  },
+};

@@ -1,0 +1,584 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardTabNavigator renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#10202b",
+      "flexDirection": "row",
+      "paddingBottom": 10,
+      "paddingTop": 15,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="tabNavIcon0"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "marginBottom": 5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginBottom": 6,
+            }
+          }
+        >
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight={21.6}
+            bbWidth={29.165399999999998}
+            focusable={false}
+            height={21.6}
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 21,
+                  "width": 29,
+                },
+              ]
+            }
+            vbHeight={24}
+            vbWidth={32.406}
+            width={29.165399999999998}
+            xml="
+
+<svg  xmlns=\\"http://www.w3.org/2000/svg\\" 
+width=\\"29.165399999999998\\" height=\\"21.6\\"
+viewBox=\\"0 0 32.406 24\\">
+  <path  d=\\"M90.385,168.333a10.407,10.407,0,0,0,1.757,4.937h17.451a10.407,10.407,0,0,0,1.757-4.937h-2.233v-1.9h2.232a10.477,10.477,0,0,0-2.4-5.787l-1.575,1.575-1.343-1.343L107.6,159.3a10.478,10.478,0,0,0-5.787-2.4v2.232h-1.9V156.9a10.478,10.478,0,0,0-5.787,2.4l1.575,1.575-1.343,1.343-1.575-1.575a10.477,10.477,0,0,0-2.4,5.787h2.232v1.9Zm9.533-3.562V161.05h1.9v3.721a2.882,2.882,0,0,1,0,5.442v1.554h-1.9v-1.554a2.882,2.882,0,0,1,0-5.442Z\\" transform=\\"translate(-84.664 -151.169)\\" 
+  fill=\\"#fff\\"/>
+  <path  d=\\"M241.44,310.635a.984.984,0,1,0-.984-.984A.985.985,0,0,0,241.44,310.635Z\\" transform=\\"translate(-225.237 -293.331)\\" 
+  fill=\\"#fff\\"/>
+  <path  d=\\"M27.66,71.248A16.2,16.2,0,0,0,0,82.711a16.052,16.052,0,0,0,1.716,7.265l.263.524H6.51l-.285-.383a12.426,12.426,0,1,1,22.4-7.405,12.333,12.333,0,0,1-2.445,7.406L25.9,90.5h4.531l.263-.524a16.225,16.225,0,0,0-3.03-18.728Z\\" transform=\\"translate(0 -66.5)\\" 
+  fill=\\"#fff\\"/>
+</svg>
+
+
+
+"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <RNSVGGroup>
+              <RNSVGPath
+                d="M90.385,168.333a10.407,10.407,0,0,0,1.757,4.937h17.451a10.407,10.407,0,0,0,1.757-4.937h-2.233v-1.9h2.232a10.477,10.477,0,0,0-2.4-5.787l-1.575,1.575-1.343-1.343L107.6,159.3a10.478,10.478,0,0,0-5.787-2.4v2.232h-1.9V156.9a10.478,10.478,0,0,0-5.787,2.4l1.575,1.575-1.343,1.343-1.575-1.575a10.477,10.477,0,0,0-2.4,5.787h2.232v1.9Zm9.533-3.562V161.05h1.9v3.721a2.882,2.882,0,0,1,0,5.442v1.554h-1.9v-1.554a2.882,2.882,0,0,1,0-5.442Z"
+                fill={4294967295}
+                matrix={
+                  Array [
+                    1,
+                    0,
+                    0,
+                    1,
+                    -84.664,
+                    -151.169,
+                  ]
+                }
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M241.44,310.635a.984.984,0,1,0-.984-.984A.985.985,0,0,0,241.44,310.635Z"
+                fill={4294967295}
+                matrix={
+                  Array [
+                    1,
+                    0,
+                    0,
+                    1,
+                    -225.237,
+                    -293.331,
+                  ]
+                }
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M27.66,71.248A16.2,16.2,0,0,0,0,82.711a16.052,16.052,0,0,0,1.716,7.265l.263.524H6.51l-.285-.383a12.426,12.426,0,1,1,22.4-7.405,12.333,12.333,0,0,1-2.445,7.406L25.9,90.5h4.531l.263-.524a16.225,16.225,0,0,0-3.03-18.728Z"
+                fill={4294967295}
+                matrix={
+                  Array [
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    -66.5,
+                  ]
+                }
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontFamily": "OpenSans-Bold",
+              "fontSize": 12,
+            }
+          }
+        >
+          Card details
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="tabNavIcon1"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "marginBottom": 5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginBottom": 6,
+            }
+          }
+        >
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight={21.6}
+            bbWidth={25.3152}
+            focusable={false}
+            height={21.6}
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 21,
+                  "width": 25,
+                },
+              ]
+            }
+            vbHeight={24}
+            vbWidth={28.128}
+            width={25.3152}
+            xml="
+
+<svg xmlns=\\"http://www.w3.org/2000/svg\\"
+width=\\"25.3152\\"
+ height=\\"21.6\\"
+ viewBox=\\"0 0 28.128 24\\">
+  <path 
+   d=\\"M23.923,17.434l-3.071-3.946,3.164-4.821,3.043-4.637-5.3,1.64-2.571.8-.38-1.46L17.508,0l-2.39,4.587L14.4,5.97,14.159,5.8,11.654,4.029l-.6,3.011-.043.218L8.2,6.153,0,2.938,6.016,9.369,7.78,11.256l-.742.323L1.245,14.1l6.19,1.26,1.034.21-1.2,1.464L2,23.463,9.61,20.121,12.379,18.9l.976,1.82L15.113,24l1.753-3.279.856-1.6,3.96,1.415,6.446,2.3Z\\" 
+   fill=\\"#29b782\\"/>
+</svg>
+
+
+"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <RNSVGGroup>
+              <RNSVGPath
+                d="M23.923,17.434l-3.071-3.946,3.164-4.821,3.043-4.637-5.3,1.64-2.571.8-.38-1.46L17.508,0l-2.39,4.587L14.4,5.97,14.159,5.8,11.654,4.029l-.6,3.011-.043.218L8.2,6.153,0,2.938,6.016,9.369,7.78,11.256l-.742.323L1.245,14.1l6.19,1.26,1.034.21-1.2,1.464L2,23.463,9.61,20.121,12.379,18.9l.976,1.82L15.113,24l1.753-3.279.856-1.6,3.96,1.415,6.446,2.3Z"
+                fill={4280924034}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#29b782",
+              "fontFamily": "OpenSans-Bold",
+              "fontSize": 12,
+            }
+          }
+        >
+          Dashboard
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="tabNavIcon2"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "marginBottom": 5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginBottom": 6,
+            }
+          }
+        >
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight={21.6}
+            bbWidth={21.4938}
+            focusable={false}
+            height={21.6}
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 21,
+                  "width": 21,
+                },
+              ]
+            }
+            vbHeight={24}
+            vbWidth={23.882}
+            width={21.4938}
+            xml="
+
+
+
+<svg xmlns=\\"http://www.w3.org/2000/svg\\"
+width=\\"21.4938\\" height=\\"21.6\\"
+viewBox=\\"0 0 23.882 24\\">
+  <g  transform=\\"translate(0)\\">
+    <g >
+      <path  d=\\"M52.494,0a2.391,2.391,0,0,0-2.388,2.388,2.366,2.366,0,0,0,.48,1.421L46.69,8.036a2.313,2.313,0,0,0-1.887.327L42.026,6.28a2.354,2.354,0,0,0,.119-.707,2.388,2.388,0,1,0-4.776,0,2.354,2.354,0,0,0,.119.707L34.71,8.362a2.486,2.486,0,1,0,.947,1.279l2.777-2.082a2.376,2.376,0,0,0,2.644,0l2.777,2.082a2.354,2.354,0,0,0-.119.707,2.388,2.388,0,1,0,4.776,0,2.366,2.366,0,0,0-.48-1.421L51.928,4.7a2.363,2.363,0,0,0,.565.075,2.388,2.388,0,0,0,0-4.776Z\\" transform=\\"translate(-31)\\" 
+      fill=\\"#fff\\"/>
+    </g>
+  </g>
+  <g  transform=\\"translate(6.368 12.749)\\">
+    <g >
+      <path  d=\\"M154.98,240H151.8a.8.8,0,0,0-.8.8v10.455h4.776V240.8A.8.8,0,0,0,154.98,240Z\\" transform=\\"translate(-151 -240)\\" 
+      fill=\\"#fff\\"/>
+    </g>
+  </g>
+  <g  transform=\\"translate(12.737 15.933)\\">
+    <g >
+      <path  d=\\"M274.98,300H271.8a.8.8,0,0,0-.8.8v7.271h4.776V300.8A.8.8,0,0,0,274.98,300Z\\" transform=\\"translate(-271 -300)\\" 
+      fill=\\"#fff\\"/>
+    </g>
+  </g>
+  <g  transform=\\"translate(19.105 9.565)\\">
+    <g >
+      <path  d=\\"M394.98,180H391.8a.8.8,0,0,0-.8.8v13.639h4.776V180.8A.8.8,0,0,0,394.98,180Z\\" transform=\\"translate(-391 -180)\\" 
+      fill=\\"#fff\\"/>
+    </g>
+  </g>
+  <g  transform=\\"translate(0 17.525)\\">
+    <g >
+      <path  d=\\"M34.98,330H31.8a.8.8,0,0,0-.8.8v5.679h4.776V330.8A.8.8,0,0,0,34.98,330Z\\" transform=\\"translate(-31 -330)\\" 
+      fill=\\"#fff\\"/>
+    </g>
+  </g>
+</svg>
+
+
+
+
+
+
+
+
+"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <RNSVGGroup>
+              <RNSVGGroup
+                matrix={
+                  Array [
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                  ]
+                }
+              >
+                <RNSVGGroup>
+                  <RNSVGPath
+                    d="M52.494,0a2.391,2.391,0,0,0-2.388,2.388,2.366,2.366,0,0,0,.48,1.421L46.69,8.036a2.313,2.313,0,0,0-1.887.327L42.026,6.28a2.354,2.354,0,0,0,.119-.707,2.388,2.388,0,1,0-4.776,0,2.354,2.354,0,0,0,.119.707L34.71,8.362a2.486,2.486,0,1,0,.947,1.279l2.777-2.082a2.376,2.376,0,0,0,2.644,0l2.777,2.082a2.354,2.354,0,0,0-.119.707,2.388,2.388,0,1,0,4.776,0,2.366,2.366,0,0,0-.48-1.421L51.928,4.7a2.363,2.363,0,0,0,.565.075,2.388,2.388,0,0,0,0-4.776Z"
+                    fill={4294967295}
+                    matrix={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        -31,
+                        0,
+                      ]
+                    }
+                    propList={
+                      Array [
+                        "fill",
+                      ]
+                    }
+                  />
+                </RNSVGGroup>
+              </RNSVGGroup>
+              <RNSVGGroup
+                matrix={
+                  Array [
+                    1,
+                    0,
+                    0,
+                    1,
+                    6.368,
+                    12.749,
+                  ]
+                }
+              >
+                <RNSVGGroup>
+                  <RNSVGPath
+                    d="M154.98,240H151.8a.8.8,0,0,0-.8.8v10.455h4.776V240.8A.8.8,0,0,0,154.98,240Z"
+                    fill={4294967295}
+                    matrix={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        -151,
+                        -240,
+                      ]
+                    }
+                    propList={
+                      Array [
+                        "fill",
+                      ]
+                    }
+                  />
+                </RNSVGGroup>
+              </RNSVGGroup>
+              <RNSVGGroup
+                matrix={
+                  Array [
+                    1,
+                    0,
+                    0,
+                    1,
+                    12.737,
+                    15.933,
+                  ]
+                }
+              >
+                <RNSVGGroup>
+                  <RNSVGPath
+                    d="M274.98,300H271.8a.8.8,0,0,0-.8.8v7.271h4.776V300.8A.8.8,0,0,0,274.98,300Z"
+                    fill={4294967295}
+                    matrix={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        -271,
+                        -300,
+                      ]
+                    }
+                    propList={
+                      Array [
+                        "fill",
+                      ]
+                    }
+                  />
+                </RNSVGGroup>
+              </RNSVGGroup>
+              <RNSVGGroup
+                matrix={
+                  Array [
+                    1,
+                    0,
+                    0,
+                    1,
+                    19.105,
+                    9.565,
+                  ]
+                }
+              >
+                <RNSVGGroup>
+                  <RNSVGPath
+                    d="M394.98,180H391.8a.8.8,0,0,0-.8.8v13.639h4.776V180.8A.8.8,0,0,0,394.98,180Z"
+                    fill={4294967295}
+                    matrix={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        -391,
+                        -180,
+                      ]
+                    }
+                    propList={
+                      Array [
+                        "fill",
+                      ]
+                    }
+                  />
+                </RNSVGGroup>
+              </RNSVGGroup>
+              <RNSVGGroup
+                matrix={
+                  Array [
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    17.525,
+                  ]
+                }
+              >
+                <RNSVGGroup>
+                  <RNSVGPath
+                    d="M34.98,330H31.8a.8.8,0,0,0-.8.8v5.679h4.776V330.8A.8.8,0,0,0,34.98,330Z"
+                    fill={4294967295}
+                    matrix={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        -31,
+                        -330,
+                      ]
+                    }
+                    propList={
+                      Array [
+                        "fill",
+                      ]
+                    }
+                  />
+                </RNSVGGroup>
+              </RNSVGGroup>
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontFamily": "OpenSans-Bold",
+              "fontSize": 12,
+            }
+          }
+        >
+          Review plan
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

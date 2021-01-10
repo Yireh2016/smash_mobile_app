@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SmashButton renders correctly SmashButton primary renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#29b782",
+      "borderColor": "transparent",
+      "borderRadius": 12,
+      "borderWidth": 1,
+      "paddingBottom": 10,
+      "paddingTop": 10,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontFamily": "OpenSans-Bold",
+          "fontSize": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`SmashButton renders correctly SmashButton secondary renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#10202b",
+      "borderColor": "#29b782",
+      "borderRadius": 12,
+      "borderWidth": 1,
+      "paddingBottom": 10,
+      "paddingTop": 10,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontFamily": "OpenSans-Bold",
+          "fontSize": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+</View>
+`;
